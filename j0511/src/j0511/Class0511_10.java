@@ -16,12 +16,12 @@ public class Class0511_10 {
 		int count = 0; //입력된 학생 수
 		
 		//성적입력 변수
-		String[] name = new String[5];
-		int[] kor = new int[5];
-		int[] eng = new int[5];
-		int[] math = new int[5];
-		int[] total = new int[5];
-		double[] avg = new double[5];
+		String[] name = new String[3];
+		int[] kor = new int[3];
+		int[] eng = new int[3];
+		int[] math = new int[3];
+		int[] total = new int[3];
+		double[] avg = new double[3];
 		
 		while(true) {
 			System.out.println("[성적처리프로그램]");
