@@ -69,7 +69,7 @@ public class Class0511_13 {
 			}//case2 for
 			break;
 		}//switch
-//		System.out.println("종료합니다");
+		System.out.println("종료합니다");
 //출력
 		}//while
 		
