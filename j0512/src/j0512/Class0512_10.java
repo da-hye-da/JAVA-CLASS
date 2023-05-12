@@ -1,19 +1,26 @@
 package j0512;
 
-import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class Class0512_10 {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		
-		int[][]score = new int[2][5];
-		String[] title = {"이름","국어","영어","수학","합계","평균"};
-		
-		//1. 입력
-		for (int i = 0; i < score.length; i++) {
-			
+		Integer[] arr = {1,11,23,45,2,3,9,5};
+		//Arrays.sort(arr);  //오름차순정렬
+		//Arrays.sort(arr,Collections.reverseOrder()); //내림차순정렬
+		int num=10;
+		//단순for문
+		for(int i:arr) {
+			System.out.print(i+" ");
 		}
-		//2. 출력
-	}//main
-}//class
+
+//		for(int i=0;i<arr.length;i++) {
+//			System.out.print(arr[i]+" ");
+//		}
+
+
+
+	}
+
+}
