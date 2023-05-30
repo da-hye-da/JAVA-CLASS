@@ -39,6 +39,7 @@ public class Class0516_01 {
 			choice = scan.nextInt();
 
 			switch (choice) {
+			
 
 			case 1:
 				for (int i = count; i < name.length; i++) {
